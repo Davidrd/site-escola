@@ -1,12 +1,15 @@
 *{
     margin: 0;
     padding: 0;
-
+body{
+        font-family: 'Poppins', sans-serif;
+    }
+    
 }
 
 .cabeçalho {
     background-color: rgba(240, 13, 13, 0.507);
-    color:rgb(238, 238, 238);
+    color:rgb(0, 0, 0);
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -27,7 +30,7 @@
 }
 .escola{
     background-image: linear-gradient( rgb(241, 62, 62), rgb(211, 25, 25));
-    color:rgb(221, 210, 210);
+    color:rgb(255, 255, 255);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -40,4 +43,16 @@ width: 35%;
 }
 .escola-titulo{
     padding: 24px 0;
+}
+estudante-imagem{
+    width: 120px ;
+
+}
+
+.estudante-icone{
+    width: 24px; ;
+}
+
+.estudante-div{
+    text-align: center;
 }
