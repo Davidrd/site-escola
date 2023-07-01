@@ -56,3 +56,34 @@ estudante-imagem{
 .estudante-div{
     text-align: center;
 }
+
+.estudante-div{
+    text-align: center;
+}
+
+.estudante-título{
+    text-align: center;
+    padding: 50px 0;
+}
+
+.estudantes-todos{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20% 20%;
+}
+
+footer {
+    background-color: #5f0c0c;
+    padding: 20px;
+    text-align: center;
+}
+
+.social-icons a {
+    color: #1d1c1c;
+    font-size: 24px;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    color: #ffffff;
+}
